@@ -1,0 +1,23 @@
+一、游戏分析：
+1、Math.random * 6  ：生成0~6的随机数
+2、Math.floor  + 1：向下取整，获得1~6的整数
+3、beginPath()： 开始一个路径
+4、closePath()，stroke()，fill()：结束路径
+5、arc(cx,cy,radius,start_angle,end_angle,derection)：绘制弧线
+6、flase 顺时针方向；true 逆时针方向
+7、fill 填充
+8、Math.PI ： 半圆；2*Math.PI  圆； 0.5*Math.PI ： 直角
+9、clearRect ： 擦除
+
+二、思路
+1、画弧形 -- 》2、填充  --》 3、半圆 --》 4，完整的圆 --》5，描边
+
+2，阶段：
+     a：抛出一个骰子，再重新加载重新抛出
+     b：使用一个按钮，抛出两个骰子
+     c：完整的craps游戏
+
+三、游戏开始
+     1，掷一个骰子：
+
+
