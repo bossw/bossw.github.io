@@ -115,7 +115,6 @@
 
     </script>
 </head>
-
 <body>
     <canvas id="canvas" width="400" height="300">不支持显示</canvas>
     <button onclick="throwdice();">throw dice</button>
