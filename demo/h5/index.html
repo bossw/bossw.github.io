@@ -10,18 +10,6 @@
 <body>
 
 <div class="main">
-    <!-- 第一屏动画[[ -->
-    <div class="screen-one">
-    </div>
-    <!-- 第一屏动画]] -->
-    <!-- 第二屏动画[[ -->
-    <div class="screen-two">
-    </div>
-    <!-- 第二屏动画]] -->
-    <!-- 第三屏动画[[ -->
-    <div class="screen-three">
-    </div>
-    <!-- 第三屏动画]] -->
     <!-- 第四屏动画[[ -->
     <div class="screen-four">
         <div class="header">
@@ -68,7 +56,7 @@
             <img src="images/pro1.jpg" alt="爱心贺卡"/>
             <p>名称：爱心贺卡</p>
             <p>礼品介绍：表情达意，呼朋唤友必备工具。母亲节的爱，从一张小小的爱心贺卡开始吧！</p>
-            <p>申领方式：点击“免费领取”按钮，输入姓名及联系方式，即可在《阳光棕榈园》5月9日母亲节特别活动期间，领取所申请礼品。（所有礼品，任选3款，确定后不可取消）</p>
+            <p>申领方式：点击“免费领取”按钮，输入姓名及联系方式，即可在《阳光棕榈园》5月9日母亲节特点击“免费领取”按钮，输入姓名及联系方式，即可在《阳光棕榈园》5月9日母亲节别活动期间，领取所申请礼品。（所有礼品，任选3款，确定后不可取消）</p>
             <button class="btn btn-get">免费领取</button>
         </div>
     </div>
@@ -83,8 +71,8 @@
                 <li><input type="text" value="" name="name" class="text" pattern="[\u4E00-\u9FA5]{2,5}(?:·[\u4E00-\u9FA5]{2,5})*" placeholder="姓名" required="required"/></li>
                 <li><input type="text" value="" class="text" pattern="1\d{10}" placeholder="手机号" required="required" /></li>
                 <li class="time">
-                    <input type='checkbox' id="time-one"/><label for="time-one">5月9日领取</label>
-                    <input type="checkbox" id="time-two"/><label for="time-two">5月18日领取</label>
+                    <input type="radio" name="time" id="time-one"/><label for="time-one">5月9日领取</label>
+                    <input type="radio" name="time" id="time-two"/><label for="time-two">5月18日领取</label>
                 </li>
             </ul>
             <button class="btn btn-submit">确认申领该礼品</button>
@@ -116,7 +104,6 @@
 </div>
 
 <script src="js/zepto.min.js"></script>
-<script src="js/zepto.fullpage.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
