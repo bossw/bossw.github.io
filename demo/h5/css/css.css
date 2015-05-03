@@ -1,0 +1,76 @@
+@charset "utf-8";
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,a,address,em,img,ol,ul,li,fieldset,form,label,legend,table,tbody,tfoot,thead,tr,th,td,i,b,s { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: Helvetica,Microsoft yahei,Arial } ul,ol { list-style: none }
+a img { border: none; vertical-align: top } a { text-decoration: none }
+button { overflow: visible; padding: 0; margin: 0; border: 0 none; background-color: transparent }
+button::-moz-focus-inner { padding: 0 } textarea,input { background: none; padding: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
+input[type=password] { -webkit-text-security: disc }
+textarea:focus,input:focus,button:focus { outline: none }
+body { word-wrap: break-word }
+body,html{}
+* { -webkit-tap-highlight-color: rgba(0,0,0,0) }
+.hide{display: none!important;}
+.fl{float: left}
+.fr{float: right}
+.clearfix:before,.clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;}
+.overflow{height: 100%;overflow: hidden}
+
+.main{background-color: #f85d54; width: 100%; height: 100%; overflow: hidden;}
+/*第四屏*/
+.screen-four .header{color: #fff;text-align: center;position: relative;line-height: 22px;}
+.screen-four .header h1{font-size: 6px;line-height: 32px;}
+.screen-four .header h2{font-size: 18px;}
+.screen-four .header .info{font-size: 5px;}
+.screen-four .header span.rule{color: #fdc000;font-size: 9px;position: absolute;right: 9px;top: 3px;}
+.screen-four .header span.num{color: #764e4d;}
+.screen-four .product{margin: 15px 3px;}
+.screen-four .product ul li{float: left;width: 50%;font-size: 12px;}
+.screen-four .product ul li div{background: #fff;margin: 0 3px 3px 0;padding: 3px 3px 15px 3px;}
+.screen-four .product ul li img{width: 100%;margin-bottom: 6px;}
+
+/*弹层*/
+.mask{position: absolute; top: 0; left: 0; right: 0; height: 612px; z-index: 1; background-color: rgba(0, 0, 0, 0.701961);}
+.pop{background: #3f2167;border-radius: 5px;position: fixed;z-index: 2}
+.pop-bd{padding: 22px 30px;text-align: center;color: #fff;}
+.btn{background: #ff3d5f;width: 206px;height: 40px;font: 18px/40px "microsoft yahei";color: #fff;border-radius: 5px;}
+
+/*弹层-申请*/
+.apply{width: 280px;height: 356px;left: 50%;margin-left: -140px;top: 50%;margin-top: -178px}
+.apply .avatar{width: 80px;height: 80px;background-size: 100%;border-radius: 50%; border: #fff 2px solid;margin-bottom: 5px}
+.apply .text{background: #fff;border-radius:3px;border: 0 none;width: 100%;height: 34px;text-indent: 1em;color: #c4c6c6}
+.apply .form li{margin-bottom: 20px}
+.apply .form li.time{font-size: 12px;}
+.apply .form li.time input{text-align: left;vertical-align: middle;margin-left: 20px;}
+.apply .btn{margin: 10px 0;}
+.apply .info{color: #ee4a62;font-size: 12px;}
+
+/*弹层-成功*/
+.success{width: 280px;height: 202px;left: 50%;margin-left: -140px;top: 50%;margin-top: -101px}
+.success h2{line-height: 32px;}
+.success p{line-height: 22px;font-size: 6px;}
+.success .btn{margin-top: 30px}
+
+/*弹层-活动规则*/
+.rules{width: 290px;height: 356px;left: 50%;margin-left: -145px;top: 50%;margin-top: -178px}
+.rules h3{color: #fdc000;font-size: 13px;line-height: 24px;text-align: left;margin: 5px 0}
+.rules p{text-align: left;font-size: 9px;line-height: 20px;}
+
+/*弹层-产品介绍*/
+.pro{width: 290px;height: 366px;left: 50%;margin-left: -145px;top: 50%;margin-top: -173px}
+.pro img{width: 100px;height: 100px;margin-bottom: 10px;}
+.pro p{text-align: left;font-size: 12px;line-height: 18px;margin-bottom: 5px;}
+.pro .btn{margin-top: 10px}
+
+
+/*完成页*/
+.line{border-bottom: #ccc 1px dashed;height: 1px;margin: 15px 20px 0;}
+.pro-all{margin: 0 20px;}
+.pro-list { display: -moz-box; display: -webkit-box; display: box; width: 100%;}
+.pro-name{color: #fff}
+.seat{height: 60px;width: 60px;float: left}
+.list {height: 60px;line-height: 60px;border-bottom: #ccc 1px dashed;font-size: 12px;}
+.list-one { -moz-box-flex: 1; -webkit-box-flex: 1; box-flex: 1; }
+.list-two{ -moz-box-flex: 2; -webkit-box-flex: 2; box-flex: 2; }
+.list img{width: 38px;height: 38px;vertical-align: middle;border: #fff 1px solid;margin-right: 19px;}
+.qr-add{text-align: center;font-size: 14px;color: #fff;padding-bottom: 20px}
+.qr-add img{width: 95px;height: 95px;display: block;margin: 30px auto 10px;}
